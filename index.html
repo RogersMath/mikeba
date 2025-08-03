@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Senegal: A World-Class Education for All</title>
+    <!-- Link to the Manifest file (relative path is fine) -->
+    <link rel="manifest" href="manifest.json">
+    <!-- Theme color for browser UI -->
+    <meta name="theme-color" content="#111111"/>
     <style>
         body {
             margin: 0;
@@ -119,36 +123,25 @@
         uniform vec2 u_resolution;
         uniform float u_time;
         
-        // This function generates our procedural scene.
-        // We will apply FXAA to the output of this function.
         vec3 scene(vec2 uv) {
-            vec3 col = vec3(0.1, 0.1, 0.15); // Dark blue background
-            
-            // Create 10 rotating, aliased lines
+            vec3 col = vec3(0.1, 0.1, 0.15); 
             for (int i = 0; i < 10; i++) {
                 float i_float = float(i);
                 float angle = u_time * 0.2 + (i_float * 3.14159 * 0.4);
                 vec2 light_pos = vec2(cos(angle), sin(angle)) * 0.25;
                 float light_dist = distance(uv - 0.5, light_pos);
-                
-                // Draw a very thin, aliased line
                 float line = 1.0 - smoothstep(0.0, 0.001, light_dist - 0.1);
                 col += vec3(line) * (0.5 + 0.5 * sin(i_float * 2.0));
             }
-            
             return col;
         }
 
-        // FXAA Shader
-        // License: Unknown, author: XorDev, found: https://github.com/XorDev/GM_FXAA
-        // Modified to use a procedural scene() function instead of a texture sampler.
         vec4 fxaa(vec2 uv, vec2 texelSz) {
           const float span_max = 8.0;
           const float reduce_min = (1.0/128.0);
           const float reduce_mul = (1.0/32.0);
           const vec3 luma = vec3(0.299, 0.587, 0.114);
 
-          // Sample luma from 5 points: center and 4 corners
           vec3 rgbCC = scene(uv);
           vec3 rgb00 = scene(uv + vec2(-0.5, -0.5) * texelSz);
           vec3 rgb10 = scene(uv + vec2(0.5, -0.5) * texelSz);
@@ -161,14 +154,12 @@
           float luma01 = dot(rgb01, luma);
           float luma11 = dot(rgb11, luma);
           
-          // Compute gradient and direction
           vec2 dir = vec2((luma01 + luma11) - (luma00 + luma10), (luma00 + luma01) - (luma10 + luma11));
           float dirReduce = max((luma00 + luma10 + luma01 + luma11) * reduce_mul, reduce_min);
           float rcpDir = 1.0 / (min(abs(dir.x), abs(dir.y)) + dirReduce);
           
           dir = clamp(dir * rcpDir, -span_max, span_max) * texelSz;
           
-          // Sample along the direction vector
           vec3 rgbA = 0.5 * (scene(uv - dir * (1.0/6.0)) + scene(uv + dir * (1.0/6.0)));
           vec3 rgbB = rgbA * 0.5 + 0.25 * (scene(uv - dir * 0.5) + scene(uv + dir * 0.5));
           
@@ -176,7 +167,6 @@
           float lumaMin = min(lumaCC, min(min(luma00, luma10), min(luma01, luma11)));
           float lumaMax = max(lumaCC, max(max(luma00, luma10), max(luma01, luma11)));
           
-          // If the blended color is outside the original luma range, use the less-blurry version.
           if ((lumaB < lumaMin) || (lumaB > lumaMax)) {
               return vec4(rgbA, 1.0);
           } else {
@@ -187,8 +177,6 @@
         void main() {
           vec2 uv = gl_FragCoord.xy / u_resolution.xy;
           vec2 texelSz = 1.0 / u_resolution.xy;
-
-          // Apply FXAA to our procedurally generated scene
           gl_FragColor = fxaa(uv, texelSz);
         }
     </script>
@@ -217,7 +205,7 @@
             gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
 
             function render(time) {
-                time *= 0.001; // convert time to seconds
+                time *= 0.001; 
 
                 resizeCanvasToDisplaySize(gl.canvas);
                 gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);
@@ -273,6 +261,18 @@
                 return true;
             }
             return false;
+        }
+
+        // Register the Service Worker
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+            // Use a relative path for GitHub Pages
+            navigator.serviceWorker.register('./sw.js').then(registration => {
+              console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, err => {
+              console.log('ServiceWorker registration failed: ', err);
+            });
+          });
         }
     </script>
 </body>
