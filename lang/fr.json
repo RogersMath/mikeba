@@ -1,0 +1,204 @@
+{
+  "lang_attr": "fr",
+  "dir": "ltr",
+  "lang_label": "Français",
+
+  "site_title": "Deftere Golle",
+  "site_subtitle": "Guide Pratique de Santé et d'Agriculture — Nord Sénégal",
+  "install_text": "📲 Enregistrez ce guide — utilisable sans connexion internet",
+  "install_btn": "Installer l'application",
+  "offline_badge": "📴 Hors ligne — contenu sauvegardé disponible",
+  "footer_text": "Ce guide est à but éducatif. Consultez toujours un agent de santé qualifié pour les décisions médicales.",
+
+  "tab_duckweed": "Lentilles d'eau",
+  "tab_moringa": "Moringa",
+  "tab_water": "Eau",
+  "tab_soil": "Sol",
+  "tab_health": "Santé",
+
+  "needs_heading": "Ce Qu'il Vous Faut",
+  "steps_heading": "Étapes — Que Faire",
+  "remember_heading": "À Retenir",
+
+  "ch1_num": "Chapitre 1",
+  "ch1_title": "Lentilles d'eau (Lemnacées)",
+  "ch1_intro": "La lentille d'eau est une toute petite plante verte qui flotte sur l'eau calme. Elle double de taille tous les 2 à 3 jours. Cultivez-la dans un récipient et nourrissez-en vos poulets, vos chèvres et vos poissons — elle est aussi riche en protéines que la viande.",
+  "ch1_needs": [
+    "Un grand seau ou bassin (au moins 50 litres)",
+    "Eau propre — rivière, robinet ou puits",
+    "Lentilles d'eau de départ — prélevées dans une rivière ou mare calme",
+    "Eau de fumier diluée (1 part de fumier pour 10 parts d'eau propre)",
+    "Un endroit à mi-ombre — pas en plein soleil de midi"
+  ],
+  "ch1_s1": "Remplissez le grand seau d'eau propre en laissant deux largeurs de main d'espace en haut.",
+  "ch1_s2": "Placez une poignée de lentilles d'eau prélevées dans la rivière dans le seau. Laissez-les reposer à la surface.",
+  "ch1_s3": "Ajoutez l'engrais : 1 part d'eau de fumier pour 10 parts d'eau propre. Remuez doucement. N'en mettez pas trop — cela crée une odeur et nuit à la plante.",
+  "ch1_s4": "Placez le seau à mi-ombre. La lentille d'eau a besoin de lumière mais meurt en plein soleil de midi.",
+  "ch1_s5": "Attendez 5 à 7 jours. Les lentilles d'eau vont couvrir la surface. Elles ont bien poussé.",
+  "ch1_s6": "Retirez la moitié des lentilles à la main. Transférez-les dans un second seau avec de l'eau fraîche. Vous avez maintenant deux récipients productifs.",
+  "ch1_s7": "Donnez les lentilles récoltées fraîches immédiatement à vos poulets, chèvres ou poissons. Ils les mangeront volontiers.",
+  "ch1_s8": "Répétez la récolte tous les 3 à 4 jours. Le cycle se poursuit chaque mois sans interruption.",
+  "ch1_remember": [
+    "1 part de fumier pour 10 parts d'eau — jamais plus.",
+    "Récoltez la moitié tous les 3 à 4 jours pour maintenir la croissance.",
+    "Gardez à mi-ombre — pas en plein soleil toute la journée."
+  ],
+
+  "ch2_num": "Chapitre 2",
+  "ch2_title": "Moringa (Nebeday)",
+  "ch2_intro": "Le nebeday pousse partout dans le Fuuta Tooro. Ses feuilles contiennent plus de protéines que les œufs, plus de calcium que le lait, et plus de vitamine A que les carottes. Une cuillère de poudre de feuilles séchées par jour combat la malnutrition chez les enfants, les femmes enceintes et les personnes âgées.",
+  "ch2_needs": [
+    "Un arbre moringa (nebeday) — ou une bouture à planter",
+    "Eau propre pour laver",
+    "Un tissu ou natte propre pour sécher",
+    "Une pièce ombragée ou espace couvert — PAS en plein soleil",
+    "Un mortier et pilon pour broyer les feuilles séchées"
+  ],
+  "ch2_sec1": "Partie 1 — Récolte",
+  "ch2_s1": "Choisissez de jeunes feuilles tendres sur les branches supérieures. Ce sont les plus nutritives.",
+  "ch2_s2": "Détachez doucement les feuilles avec les doigts. N'endommagez pas les branches principales. Laissez la tige pour produire de nouvelles feuilles.",
+  "ch2_s3": "Lavez les feuilles à l'eau propre pour éliminer poussière et saleté.",
+  "ch2_sec2": "Partie 2 — Séchage (Étape Critique)",
+  "ch2_warning": "NE JAMAIS sécher les feuilles de moringa au soleil direct. La chaleur détruit vitamines et minéraux. Séchez toujours à l'ombre.",
+  "ch2_s4": "Étalez finement les feuilles sur un tissu propre dans un endroit ombragé et bien aéré. Pas de soleil direct.",
+  "ch2_s5": "Retournez les feuilles chaque jour. Après 2 à 3 jours, elles s'émiettent entre les doigts. Elles sont sèches et prêtes.",
+  "ch2_s6": "Pilez les feuilles sèches en poudre fine avec le mortier et le pilon. Tamisez les tiges.",
+  "ch2_sec3": "Partie 3 — Utilisation de la Poudre",
+  "ch2_s7": "Ajoutez une cuillère bombée à la sauce ou à la bouillie de l'enfant chaque jour.",
+  "ch2_s8": "Ajoutez la poudre APRÈS que la sauce soit retirée du feu. La chaleur détruit les nutriments. Incorporez après la cuisson.",
+  "ch2_remember": [
+    "Sécher uniquement à l'ombre — JAMAIS au soleil direct.",
+    "Ajouter la poudre après la cuisson, pas dans la nourriture bouillante.",
+    "Une cuillère par jour pour les enfants, femmes enceintes et personnes âgées."
+  ],
+
+  "ch3_num": "Chapitre 3",
+  "ch3_title": "Eau Saine & SRO",
+  "ch3_intro": "Une eau qui paraît propre peut encore être dangereuse. L'eau insalubre est l'une des premières causes de mortalité infantile. Ce chapitre présente trois méthodes pour assainir l'eau — et comment préparer le SRO, la boisson vitale contre la diarrhée.",
+  "ch3_sec1": "Méthode 1 — Ébullition (La Plus Fiable)",
+  "ch3_b1": "Versez l'eau dans une casserole propre.",
+  "ch3_b2": "Portez à ébullition complète. Attendez 1 minute entière à ébullition active.",
+  "ch3_b3": "Couvrez et laissez refroidir. Conservez dans un récipient couvert propre. Ne touchez pas l'eau avec des mains sales.",
+  "ch3_sec2": "Méthode 2 — Désinfection Solaire (SODIS)",
+  "ch3_sodis1": "Prenez une bouteille en plastique PET transparent propre (type eau ou boisson). Remplissez complètement jusqu'en haut.",
+  "ch3_sodis2": "Posez la bouteille sur une surface réfléchissante (tôle ou toiture) en plein soleil pendant 6 à 8 heures.",
+  "ch3_sodis3": "Si le ciel était nuageux, laissez 2 jours complets (48 heures). Les rayons UV tuent les bactéries et parasites.",
+  "ch3_sec3": "Méthode 3 — Filtration par Tissu (Eau Trouble)",
+  "ch3_cloth1": "Pliez un tissu propre trois fois pour obtenir trois épaisseurs.",
+  "ch3_cloth2": "Versez l'eau à travers le tissu dans un récipient propre. Cela élimine les grosses particules.",
+  "ch3_cloth_warning": "La filtration par tissu seule NE rend PAS l'eau potable. Faites toujours bouillir ou appliquez le SODIS en plus.",
+  "ch3_sec4": "SRO — La Boisson Vitale Contre la Diarrhée",
+  "ch3_ors_intro": "La diarrhée retire rapidement eau et sel du corps. Elle tue les jeunes enfants. Le SRO remplace ce qui est perdu. Préparez-le exactement comme indiqué.",
+  "ors_title": "Recette SRO — 1 Litre",
+  "ors_water": "Eau bouillie propre",
+  "ors_sugar": "Cuillères à café de sucre",
+  "ors_salt": "Cuillère à café de sel",
+  "ors_mix": "Mélangez bien. Donnez de petites gorgées fréquentes. Préparez une nouvelle dose toutes les 24 heures.",
+  "ch3_clinic_warning": "Allez au centre de santé immédiatement si : l'enfant a les yeux enfoncés, ne pleure pas de larmes, ne peut pas boire, a du sang dans les selles, ou si la diarrhée dure plus de 2 jours.",
+  "ch3_remember": [
+    "Faire bouillir l'eau est la méthode de purification la plus fiable.",
+    "SRO : 1 litre d'eau + 6 cuillères de sucre + ½ cuillère de sel.",
+    "Yeux enfoncés, pas de larmes, pas d'urine = aller au centre de santé immédiatement."
+  ],
+
+  "ch4_num": "Chapitre 4",
+  "ch4_title": "Sol, Compost & Rotation des Cultures",
+  "ch4_intro": "Un sol épuisé donne de petites récoltes. Vous pouvez le restaurer sans rien acheter. Le compost nourrit le sol avec ce que vous jetez déjà. Les zaï piègent la pluie. La rotation des cultures permet à la terre de se reposer et de se régénérer.",
+  "ch4_signs_heading": "Signes d'un Sol Épuisé",
+  "ch4_signs": [
+    "Le sol se craquelle et durcit après la pluie",
+    "Les graines germent mais les plantes ne grandissent pas",
+    "Les récoltes diminuent chaque année",
+    "Le sol paraît pâle ou grisâtre, pas foncé"
+  ],
+  "ch4_sec1": "Partie 1 — Faire du Compost",
+  "ch4_needs": [
+    "Verts : feuilles fraîches, restes de cuisine, tiges de plantes",
+    "Bruns : tiges sèches, vieilles pailles de récolte, cendres",
+    "Fumier d'animaux (chèvres, poules)",
+    "Un peu d'eau",
+    "Une fosse à compost ou espace délimité — 1m × 1m"
+  ],
+  "ch4_s1": "Creusez une fosse à compost près de votre champ — environ 1 mètre × 1 mètre. Ou faites un tas en surface.",
+  "ch4_s2": "Ajoutez des couches alternées : bruns d'abord, puis verts, puis fumier. Répétez.",
+  "ch4_s3": "Arrosez légèrement pour maintenir le tas humide mais pas détrempé.",
+  "ch4_s4": "Retournez et mélangez le tas toutes les deux semaines. Cela accélère la décomposition.",
+  "ch4_s5": "Après 3 à 4 mois, le compost est sombre, riche, et s'émiette comme du sol. Incorporez-le au champ avant de planter.",
+  "ch4_sec2": "Partie 2 — Zaï (Captage de l'Eau de Pluie)",
+  "ch4_zai1": "Avant de planter, faites de petits trous dans le sol — environ 30 cm d'intervalle dans tout le champ.",
+  "ch4_zai2": "Ajoutez une petite poignée de compost ou de fumier dans chaque trou.",
+  "ch4_zai3": "Semez la graine dans le trou. Quand la pluie tombe, l'eau s'accumule dans le trou au lieu de ruisseler. Cela nourrit la plante.",
+  "ch4_sec3": "Partie 3 — Rotation des Cultures",
+  "ch4_rot1": "Ne plantez pas le mil ou le sorgho dans le même champ chaque année. Le sol s'épuise.",
+  "ch4_rot2": "Après le mil, plantez le niébé (haricot à œil noir) dans ce champ. Le niébé remet naturellement de l'azote dans le sol.",
+  "ch4_rot3": "Après la récolte, incorporez les tiges de niébé dans le sol — ne les jetez pas. Elles restaurent et nettoient la terre.",
+  "ch4_remember": [
+    "Le compost est fait de ce que vous jetez déjà — rien à acheter.",
+    "Les zaï piègent la pluie pour qu'elle ne s'écoule pas loin de vos plantes.",
+    "Rotation : mil → niébé → mil. Le sol se régénèrera."
+  ],
+
+  "ch5_num": "Chapitre 5",
+  "ch5_title": "Notions Essentielles de Santé",
+  "ch5_intro": "Cinq sujets de santé qui sauvent le plus de vies — et qui ne coûtent rien d'autre que des connaissances. Lavage des mains, paludisme, signes de danger pendant la grossesse, soins des plaies, et suivi de la croissance de l'enfant.",
+  "hc1_title": "Les 5 Moments Critiques pour Se Laver les Mains",
+  "hc1_intro": "La plupart des diarrhées et des infections respiratoires sont transmises par des mains sales. Ces 5 moments sont les plus importants — tous les autres le sont moins.",
+  "hc1_list": [
+    "Après avoir utilisé les toilettes",
+    "Après avoir nettoyé un enfant qui a déféqué",
+    "Avant de préparer les repas",
+    "Avant de manger",
+    "Avant d'allaiter ou de nourrir un enfant"
+  ],
+  "hc1_note": "Lavez-vous avec du savon et de l'eau pendant au moins 20 secondes. Sans savon, utilisez de la cendre — ça fonctionne.",
+  "hc2_title": "Paludisme — Prévention & Signes Précoces",
+  "hc2_prevent_label": "Prévention :",
+  "hc2_prevent": [
+    "Dormez sous une moustiquaire imprégnée chaque nuit — surtout les enfants et les femmes enceintes",
+    "Videz toutes les eaux stagnantes près de votre maison — seaux, marmites, flaques — chaque semaine",
+    "Drainer ou combler toute mare stagnante dans un rayon de 100 mètres",
+    "Portez des manches longues après le coucher du soleil quand les moustiques sont les plus actifs"
+  ],
+  "hc2_signs_label": "Signes de danger — aller au dispensaire immédiatement :",
+  "hc2_signs": [
+    "Fièvre avec frissons ou tremblements (surtout chez un enfant)",
+    "Enfant confus ou qui ne se réveille pas normalement",
+    "Fièvre qui dure plus de 24 heures sans amélioration",
+    "Vomissements et impossibilité de garder des liquides"
+  ],
+  "hc3_title": "Grossesse — Signes de Danger",
+  "hc3_intro": "Allez au centre de santé immédiatement — ne tardez pas — si une femme enceinte présente l'un de ces signes :",
+  "hc3_list": [
+    "Saignements abondants du vagin à tout moment de la grossesse",
+    "Maux de tête sévères ou vision trouble (signe d'hypertension dangereuse)",
+    "Gonflement du visage et des mains (signe de prééclampsie)",
+    "Le bébé ne bouge plus depuis plus de 12 heures",
+    "Perte des eaux avant les contractions du travail",
+    "Forte fièvre pendant la grossesse",
+    "Travail durant plus de 12 heures sans accouchement"
+  ],
+  "hc3_anc": "Consultez le centre de santé au moins 4 fois pendant la grossesse — même si vous vous sentez bien.",
+  "hc4_title": "Soins de Base des Plaies",
+  "hc4_list": [
+    "Nettoyez immédiatement toute plaie à l'eau propre courante pendant 5 minutes",
+    "Retirez doucement la saleté — ne frottez pas fort",
+    "Couvrez avec un tissu propre ou un bandage",
+    "Changez le pansement chaque jour",
+    "NE mettez PAS de terre, feuilles, fumier ou huile sur une plaie — cela provoque l'infection et le tétanos"
+  ],
+  "hc4_go_label": "Aller au dispensaire si :",
+  "hc4_go": [
+    "La plaie présente des traînées rouges qui s'étendent — c'est une septicémie",
+    "La plaie provient d'une morsure d'animal ou d'une plaie pénétrante profonde",
+    "De la fièvre apparaît après la blessure",
+    "La plaie présente du pus ou une mauvaise odeur après 2 jours"
+  ],
+  "hc5_title": "Croissance de l'Enfant — Mesure PB",
+  "hc5_intro": "Le PB (Périmètre Brachial) est la méthode la plus simple pour savoir si un enfant de 6 mois à 5 ans est malnutri. Mesurez le bras supérieur avec un ruban ou une ficelle.",
+  "hc5_colors": [
+    "<strong style='color:var(--green)'>VERT (au-dessus de 12,5 cm)</strong> — Enfant bien nourri. Continuez la bonne alimentation.",
+    "<strong style='color:#CC8800'>JAUNE (11,5–12,5 cm)</strong> — Enfant à risque. Diversifiez l'alimentation. Ajoutez de la poudre de moringa chaque jour.",
+    "<strong style='color:#CC3300'>ROUGE (en dessous de 11,5 cm)</strong> — Enfant sévèrement malnutri. Allez au centre de santé immédiatement."
+  ],
+  "hc5_note": "Mesurez le PB de votre enfant chaque mois. Un enfant qui ne prend pas de poids a besoin d'aide maintenant, pas plus tard."
+}
