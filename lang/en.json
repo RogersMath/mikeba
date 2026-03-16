@@ -1,0 +1,204 @@
+{
+  "lang_attr": "en",
+  "dir": "ltr",
+  "lang_label": "English",
+
+  "site_title": "Deftere Golle",
+  "site_subtitle": "Health & Farming Guide — Northern Senegal",
+  "install_text": "📲 Save this guide for offline use — works without internet",
+  "install_btn": "Install App",
+  "offline_badge": "📴 Offline — saved content available",
+  "footer_text": "This guide is for educational purposes. Always consult a qualified health worker for medical decisions.",
+
+  "tab_duckweed": "Duckweed",
+  "tab_moringa": "Moringa",
+  "tab_water": "Water",
+  "tab_soil": "Soil",
+  "tab_health": "Health",
+
+  "needs_heading": "What You Need",
+  "steps_heading": "Steps — What to Do",
+  "remember_heading": "Remember This",
+
+  "ch1_num": "Chapter 1",
+  "ch1_title": "Duckweed",
+  "ch1_intro": "Duckweed is a tiny green plant that floats on still water. It doubles in size every 2–3 days. Grow it in a container and feed it to your chickens, goats, and fish — it has protein as rich as meat.",
+  "ch1_needs": [
+    "One large bucket or basin (at least 50 liters)",
+    "Clean water — from a river, tap, or well",
+    "Duckweed starter — collected from a calm river or pond",
+    "Diluted animal urine or manure water (1 part manure to 10 parts water)",
+    "A spot with partial shade — not full midday sun"
+  ],
+  "ch1_s1": "Fill your large bucket with clean water, leaving two hand-widths of space at the top.",
+  "ch1_s2": "Place a handful of duckweed from a river or pond into the bucket. Let it rest on top of the water.",
+  "ch1_s3": "Add fertilizer: 1 part animal manure water to 10 parts clean water. Stir gently. Do not add too much — it will smell and harm the plant.",
+  "ch1_s4": "Place the bucket in partial shade. Duckweed needs light but dies in full hot midday sun.",
+  "ch1_s5": "Wait 5–7 days. The duckweed will spread to cover the surface of the water. It has grown successfully.",
+  "ch1_s6": "Scoop out half the duckweed with your hands. Move that half to a second bucket with fresh water. Now you have two growing containers.",
+  "ch1_s7": "Feed the harvested duckweed fresh to your chickens, goats, or fish immediately. They will eat it readily.",
+  "ch1_s8": "Repeat the harvest every 3–4 days. The cycle continues every month without stopping.",
+  "ch1_remember": [
+    "Mix only 1 part manure to 10 parts water — never more.",
+    "Harvest half every 3–4 days to keep it growing.",
+    "Keep in partial shade — not full hot sun all day."
+  ],
+
+  "ch2_num": "Chapter 2",
+  "ch2_title": "Moringa (Nebeday)",
+  "ch2_intro": "Nebeday grows throughout Fuuta Tooro. Its leaves contain more protein than eggs, more calcium than milk, and more Vitamin A than carrots. One spoonful of dried leaf powder per day fights malnutrition in children, pregnant women, and elders.",
+  "ch2_needs": [
+    "A moringa (nebeday) tree — or a cutting to plant",
+    "Clean water for washing",
+    "A clean cloth or mat for drying",
+    "A shaded room or covered area — NOT direct sun",
+    "A mortar and pestle for grinding the dried leaves"
+  ],
+  "ch2_sec1": "Part 1 — Harvesting",
+  "ch2_s1": "Choose tender young leaves from the upper branches. These are the most nutritious.",
+  "ch2_s2": "Pull leaves gently with your fingers. Do not cut or damage the tree's main branches. Leave the stem to grow more leaves.",
+  "ch2_s3": "Wash the leaves in clean water to remove dust and dirt.",
+  "ch2_sec2": "Part 2 — Drying (Critical Step)",
+  "ch2_warning": "NEVER dry moringa leaves in direct hot sun. Sunlight destroys the vitamins and minerals. Always dry in shade.",
+  "ch2_s4": "Spread leaves thin on a clean cloth in a shaded, well-ventilated place. No direct sun.",
+  "ch2_s5": "Turn the leaves each day. After 2–3 days they will crumble between your fingers. They are dry and ready.",
+  "ch2_s6": "Pound the dry leaves into fine powder using your mortar and pestle. Sieve out the stems.",
+  "ch2_sec3": "Part 3 — Using the Powder",
+  "ch2_s7": "Add one heaped spoonful to your sauce or child's porridge every single day.",
+  "ch2_s8": "Add the powder AFTER the sauce has come off the fire. Heat destroys the nutrients. Stir in after cooking.",
+  "ch2_remember": [
+    "Dry only in shade — NEVER in direct sun.",
+    "Add powder after cooking, not into boiling food.",
+    "One spoonful per day for children, pregnant women, and elders."
+  ],
+
+  "ch3_num": "Chapter 3",
+  "ch3_title": "Safe Water & ORS",
+  "ch3_intro": "Water that looks clean can still carry illness. Unsafe water is a leading cause of child death. This chapter shows three ways to make water safe — and how to make ORS, the life-saving drink that treats diarrhea.",
+  "ch3_sec1": "Method 1 — Boiling (Most Reliable)",
+  "ch3_b1": "Pour water into a clean pot.",
+  "ch3_b2": "Bring to a full rolling boil. Wait 1 full minute while it boils actively.",
+  "ch3_b3": "Cover and let cool. Store in a clean covered container. Do not touch the water with dirty hands.",
+  "ch3_sec2": "Method 2 — Solar Disinfection (SODIS)",
+  "ch3_sodis1": "Take a clean, clear plastic PET bottle (the type water or soft drinks come in). Fill completely to the top with water.",
+  "ch3_sodis2": "Lay the bottle on a shiny surface (a metal sheet or rooftop) in direct sunlight for 6–8 hours.",
+  "ch3_sodis3": "If the sky was cloudy, leave for 2 full days (48 hours). The UV light kills bacteria and parasites.",
+  "ch3_sec3": "Method 3 — Cloth Filtering (For Cloudy Water)",
+  "ch3_cloth1": "Fold a clean cloth three times to make three layers.",
+  "ch3_cloth2": "Pour water through the cloth into a clean container. This removes large particles and sediment.",
+  "ch3_cloth_warning": "Cloth filtering alone does NOT make water safe to drink. Always boil or SODIS as well.",
+  "ch3_sec4": "ORS — The Life-Saving Drink for Diarrhea",
+  "ch3_ors_intro": "Diarrhea removes water and salt from the body fast. It kills small children. ORS replaces what is lost. Make it exactly as shown.",
+  "ors_title": "ORS Recipe — 1 Liter",
+  "ors_water": "Boiled clean water",
+  "ors_sugar": "Teaspoons sugar",
+  "ors_salt": "Teaspoon salt",
+  "ors_mix": "Mix well. Give small sips often. Make a fresh batch every 24 hours.",
+  "ch3_clinic_warning": "Go to the health clinic immediately if: the child has sunken eyes, no tears when crying, cannot drink, has blood in stool, or diarrhea continues more than 2 days.",
+  "ch3_remember": [
+    "Boiling water is the most reliable purification method.",
+    "ORS: 1 liter water + 6 teaspoons sugar + ½ teaspoon salt.",
+    "Sunken eyes, no tears, no urination = go to clinic immediately."
+  ],
+
+  "ch4_num": "Chapter 4",
+  "ch4_title": "Soil, Compost & Crop Rotation",
+  "ch4_intro": "Tired soil gives small harvests. You can restore it without buying anything. Compost feeds the soil with what you already throw away. Zai pits catch rain. Crop rotation lets the land rest and recover.",
+  "ch4_signs_heading": "Signs Your Soil Is Tired",
+  "ch4_signs": [
+    "Soil cracks and hardens after rain",
+    "Seeds sprout but plants do not grow tall",
+    "Harvests get smaller every year",
+    "Soil looks pale or grey, not dark"
+  ],
+  "ch4_sec1": "Part 1 — Making Compost",
+  "ch4_needs": [
+    "Greens: fresh leaves, kitchen scraps, plant cuttings",
+    "Browns: dry stalks, old harvest stems, wood ash",
+    "Animal droppings (goat, chicken)",
+    "A little water",
+    "A compost pit or enclosed area — 1m × 1m"
+  ],
+  "ch4_s1": "Dig a compost pit near your field — about 1 meter × 1 meter. Or make a pile on the surface.",
+  "ch4_s2": "Add alternating layers: browns first, then greens, then animal droppings. Repeat.",
+  "ch4_s3": "Sprinkle water to keep the pile damp but not soaking wet.",
+  "ch4_s4": "Turn and mix the pile every two weeks. Turning helps it rot faster.",
+  "ch4_s5": "After 3–4 months, the compost is dark, rich, and crumbles like soil. Mix it into your field before planting.",
+  "ch4_sec2": "Part 2 — Zai Pits (Catching Rainwater)",
+  "ch4_zai1": "Before planting, make small holes in the soil — about 30 cm apart across your field.",
+  "ch4_zai2": "Add a small handful of compost or animal droppings into each hole.",
+  "ch4_zai3": "Plant your seed in the hole. When rain falls, it collects in the hole instead of running away. This feeds the growing plant.",
+  "ch4_sec3": "Part 3 — Crop Rotation",
+  "ch4_rot1": "Do not plant millet or sorghum in the same field every year. The soil becomes exhausted.",
+  "ch4_rot2": "After millet, plant cowpea (niébé) in that field. Cowpea puts nitrogen back into the soil naturally.",
+  "ch4_rot3": "After harvest, mix the cowpea stalks into the soil — do not throw them away. They restore and clean the land.",
+  "ch4_remember": [
+    "Compost is made from what you already throw away — nothing to buy.",
+    "Zai pits catch rain so it doesn't run away from your plants.",
+    "Rotate: millet → cowpea → millet. The soil will recover."
+  ],
+
+  "ch5_num": "Chapter 5",
+  "ch5_title": "Essential Health Basics",
+  "ch5_intro": "Five health topics that save the most lives — and cost nothing but knowledge. Handwashing, malaria, pregnancy danger signs, wound care, and tracking your child's growth.",
+  "hc1_title": "The 5 Critical Times to Wash Hands",
+  "hc1_intro": "Most diarrhea and respiratory disease is transmitted by dirty hands. These 5 moments matter most — all others are less critical.",
+  "hc1_list": [
+    "After using the toilet or latrine",
+    "After cleaning a child who has defecated",
+    "Before preparing food",
+    "Before eating",
+    "Before breastfeeding or feeding a child"
+  ],
+  "hc1_note": "Wash with soap and water for at least 20 seconds. If no soap, use ash — it works.",
+  "hc2_title": "Malaria — Prevention & Early Signs",
+  "hc2_prevent_label": "Prevention:",
+  "hc2_prevent": [
+    "Sleep under a treated mosquito net every night — especially children and pregnant women",
+    "Empty all standing water near your home — buckets, pots, puddles — every week",
+    "Drain or fill any stagnant pools within 100 meters of your home",
+    "Wear long sleeves after sunset when mosquitoes are most active"
+  ],
+  "hc2_signs_label": "Danger signs — go to clinic immediately:",
+  "hc2_signs": [
+    "Fever with shaking or rigors (especially in a child)",
+    "Child is confused or cannot wake up normally",
+    "Fever lasts more than 24 hours without improvement",
+    "Vomiting and cannot keep fluids down"
+  ],
+  "hc3_title": "Pregnancy — Danger Signs",
+  "hc3_intro": "Go to the health center immediately — do not wait — if a pregnant woman shows any of these signs:",
+  "hc3_list": [
+    "Heavy bleeding from the vagina at any time during pregnancy",
+    "Severe headache or blurred vision (sign of dangerous blood pressure)",
+    "Swelling of the face and hands (sign of preeclampsia)",
+    "Baby has stopped moving for more than 12 hours",
+    "Water breaks before labor contractions begin",
+    "High fever during pregnancy",
+    "Labor lasting more than 12 hours without birth"
+  ],
+  "hc3_anc": "Visit the health center at least 4 times during pregnancy — even if you feel well.",
+  "hc4_title": "Wound Care Basics",
+  "hc4_list": [
+    "Clean every wound immediately with clean running water for 5 minutes",
+    "Remove dirt and debris gently — do not scrub hard",
+    "Cover with a clean cloth or bandage",
+    "Change the covering daily",
+    "Do NOT put soil, leaves, animal dung, or oil on a wound — this causes infection and tetanus"
+  ],
+  "hc4_go_label": "Go to clinic if:",
+  "hc4_go": [
+    "Wound has red streaks spreading outward — this is blood poisoning",
+    "Wound is from an animal bite or deep puncture",
+    "Fever develops after a wound",
+    "Wound has pus or bad smell after 2 days"
+  ],
+  "hc5_title": "Child Growth — MUAC Check",
+  "hc5_intro": "MUAC (Mid-Upper Arm Circumference) is the easiest way to check if a child aged 6 months to 5 years is malnourished. Measure the upper arm with a ribbon or string.",
+  "hc5_colors": [
+    "<strong style='color:var(--green)'>GREEN (above 12.5 cm)</strong> — Child is well nourished. Continue good feeding.",
+    "<strong style='color:#CC8800'>YELLOW (11.5–12.5 cm)</strong> — Child is at risk. Increase food variety. Add moringa powder daily.",
+    "<strong style='color:#CC3300'>RED (below 11.5 cm)</strong> — Child is severely malnourished. Go to health clinic immediately."
+  ],
+  "hc5_note": "Check your child's MUAC every month. A child who is not gaining weight needs help now, not later."
+}
