@@ -1,279 +1,377 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Senegal: A World-Class Education for All</title>
-    <!-- Link to the Manifest file (relative path is fine) -->
-    <link rel="manifest" href="manifest.json">
-    <!-- Theme color for browser UI -->
-    <meta name="theme-color" content="#111111"/>
-    <style>
-        body {
-            margin: 0;
-            font-family: sans-serif;
-            color: white;
-            background-color: #111;
-            overflow-x: hidden;
-        }
-
-        #shader-canvas {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-        }
-
-        .content {
-            position: relative;
-            z-index: 1;
-            padding: 2rem;
-            max-width: 800px;
-            margin: 2rem auto;
-            background-color: rgba(0, 0, 0, 0.6);
-            border-radius: 10px;
-        }
-
-        h1, h2 {
-            text-align: center;
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-        }
-
-        a {
-            color: #87CEEB;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .tool-list {
-            list-style: none;
-            padding: 0;
-        }
-
-        .tool-list li {
-            margin-bottom: 1.5rem;
-            padding: 1rem;
-            background-color: rgba(255, 255, 255, 0.05);
-            border-radius: 5px;
-        }
-
-        .tool-list h3 {
-            margin-top: 0;
-            margin-bottom: 0.5rem;
-        }
-
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#3E1A08">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="description" content="Deftere Golle — Practical health and farming guide for northern Senegal. Works offline.">
+<title>Deftere Golle</title>
+<link rel="manifest" href="manifest.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <canvas id="shader-canvas"></canvas>
+<a href="#content" class="skip-link">Skip to main content</a>
 
-    <div class="content">
-        <h1>Project Senegal</h1>
-        <p>This page is dedicated to a simple but powerful idea: that every child in Senegal, and across the globe, deserves access to a world-class education. This mission is inspired by the tireless work of educators like Mike Ba, who are leveraging the power of the internet to open up new worlds of learning for their students. This is a starting point, a curated list of free online resources to help make this vision a reality.</p>
+<!-- ═══════════════════════════════════════════════════════════════════
+     LANGUAGE BAR
+     To add a language: add one <button class="lang-btn" data-lang="xx">
+     and drop lang/xx.json into the lang/ directory. Nothing else needed.
+     ═══════════════════════════════════════════════════════════════════ -->
+<nav id="lang-bar" aria-label="Language selector">
+  <span class="lang-lbl" aria-hidden="true">Lang</span>
+  <button class="lang-btn" data-lang="en" aria-pressed="true">English</button>
+  <button class="lang-btn" data-lang="pu" aria-pressed="false">Pulaar</button>
+  <button class="lang-btn" data-lang="wo" aria-pressed="false">Wolof</button>
+  <button class="lang-btn" data-lang="fr" aria-pressed="false">Français</button>
+  <button id="a11y-btn" aria-pressed="false" title="Large text">A+</button>
+</nav>
 
-        <h2>Essential Learning Tools</h2>
-        <p>The internet is a vast library of knowledge. Here are some of the best free resources for learning, from foundational skills to creative exploration.</p>
+<!-- CHAPTER TABS -->
+<nav id="tab-nav" role="tablist" aria-label="Chapters">
+  <button class="tab-btn" role="tab" aria-selected="true"  data-ch="duckweed" aria-controls="ch-duckweed">
+    <span class="ti" aria-hidden="true">🦆</span>
+    <span data-k="tab_duckweed">Duckweed</span>
+  </button>
+  <button class="tab-btn" role="tab" aria-selected="false" data-ch="moringa"  aria-controls="ch-moringa">
+    <span class="ti" aria-hidden="true">🌱</span>
+    <span data-k="tab_moringa">Moringa</span>
+  </button>
+  <button class="tab-btn" role="tab" aria-selected="false" data-ch="water"    aria-controls="ch-water">
+    <span class="ti" aria-hidden="true">💧</span>
+    <span data-k="tab_water">Water</span>
+  </button>
+  <button class="tab-btn" role="tab" aria-selected="false" data-ch="soil"     aria-controls="ch-soil">
+    <span class="ti" aria-hidden="true">🪱</span>
+    <span data-k="tab_soil">Soil</span>
+  </button>
+  <button class="tab-btn" role="tab" aria-selected="false" data-ch="health"   aria-controls="ch-health">
+    <span class="ti" aria-hidden="true">❤️</span>
+    <span data-k="tab_health">Health</span>
+  </button>
+</nav>
 
-        <ul class="tool-list">
-            <li>
-                <h3><a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a></h3>
-                <p>A non-profit educational organization that provides free, world-class education for anyone, anywhere. It offers practice exercises, instructional videos, and a personalized learning dashboard.</p>
-            </li>
-            <li>
-                <h3><a href="https://www.oercommons.org/" target="_blank">OER Commons</a></h3>
-                <p>A public digital library of open educational resources (OER). OER Commons allows users to explore, create, and collaborate with educators around the world to improve curriculum.</p>
-            </li>
-            <li>
-                <h3><a href="https://scratch.mit.edu/" target="_blank">Scratch</a></h3>
-                <p>A visual programming language and online community where children can create their own interactive stories, games, and animations. It's a great introduction to coding.</p>
-            </li>
-             <li>
-                <h3><a href="https://www.gcompris.net/index-en.html" target="_blank">GCompris</a></h3>
-                <p>A high-quality educational software suite with a large number of activities for children aged 2 to 10. Some activities are game-oriented, but still educational.</p>
-            </li>
-             <li>
-                <h3><a href="https://www.tuxpaint.org/" target="_blank">Tux Paint</a></h3>
-                <p>A free, award-winning drawing program for children ages 3 to 12 with a simple, easy-to-use interface and fun sound effects.</p>
-            </li>
-             <li>
-                <h3><a href="https://eduactiv8.org/" target="_blank">eduActiv8</a></h3>
-                <p>A free and open-source educational tool for children, offering a variety of interactive learning activities across multiple subjects.</p>
-            </li>
-        </ul>
+<!-- INSTALL BANNER -->
+<div id="install-bar" role="banner">
+  <span data-k="install_text">📲 Save this guide for offline use</span>
+  <button id="install-do" data-k="install_btn">Install App</button>
+  <button id="install-x" aria-label="Dismiss">✕</button>
+</div>
+
+<!-- SITE HEADER -->
+<header>
+  <div class="hdr">
+    <span class="hdr-icon" aria-hidden="true">🌿</span>
+    <h1 data-k="site_title">Deftere Golle</h1>
+    <p class="hdr-sub" data-k="site_subtitle">Health &amp; Farming Guide — Northern Senegal</p>
+    <div class="hdr-langs" aria-hidden="true">
+      <span>English</span><span>Pulaar</span><span>Wolof</span><span>Français</span>
     </div>
+  </div>
+</header>
 
-    <script id="vertex-shader" type="x-shader/x-vertex">
-        attribute vec2 a_position;
-        void main() {
-            gl_Position = vec4(a_position, 0.0, 1.0);
-        }
-    </script>
+<main id="content">
 
-    <script id="fragment-shader" type="x-shader/x-fragment">
-        precision highp float;
+<!-- ═══════════════════════════════════
+     CHAPTER 1 — DUCKWEED
+     ═══════════════════════════════════ -->
+<article class="chapter active" id="ch-duckweed" role="tabpanel">
+  <div class="ch-hero c1">
+    <div class="ch-hero-inner">
+      <div>
+        <p class="ch-num" data-k="ch1_num">Chapter 1</p>
+        <h2 data-k="ch1_title">Duckweed</h2>
+      </div>
+      <span class="ch-icon" aria-hidden="true">🦆</span>
+      <p class="ch-intro" data-k="ch1_intro"></p>
+    </div>
+  </div>
+  <div class="ch-body">
+    <div class="needs-box">
+      <h3 data-k="needs_heading">What You Need</h3>
+      <ul class="needs-list">
+        <li data-k="ch1_n0"></li><li data-k="ch1_n1"></li>
+        <li data-k="ch1_n2"></li><li data-k="ch1_n3"></li>
+        <li data-k="ch1_n4"></li>
+      </ul>
+    </div>
+    <p class="sec-label" data-k="steps_heading">Steps</p>
+    <div class="step"><div class="step-num">1</div><div class="step-main" data-k="ch1_s1"></div></div>
+    <div class="step"><div class="step-num">2</div><div class="step-main" data-k="ch1_s2"></div></div>
+    <div class="step"><div class="step-num">3</div><div class="step-main" data-k="ch1_s3"></div></div>
+    <div class="step"><div class="step-num">4</div><div class="step-main" data-k="ch1_s4"></div></div>
+    <div class="step"><div class="step-num">5</div><div class="step-main" data-k="ch1_s5"></div></div>
+    <div class="step"><div class="step-num">6</div><div class="step-main" data-k="ch1_s6"></div></div>
+    <div class="step"><div class="step-num">7</div><div class="step-main" data-k="ch1_s7"></div></div>
+    <div class="step"><div class="step-num">8</div><div class="step-main" data-k="ch1_s8"></div></div>
+    <div class="rem-box">
+      <h3>⭐ <span data-k="remember_heading">Remember This</span></h3>
+      <div class="rem-items">
+        <div class="rem-item" data-k="ch1_r0"></div>
+        <div class="rem-item" data-k="ch1_r1"></div>
+        <div class="rem-item" data-k="ch1_r2"></div>
+      </div>
+    </div>
+  </div>
+</article>
 
-        uniform vec2 u_resolution;
-        uniform float u_time;
-        
-        vec3 scene(vec2 uv) {
-            vec3 col = vec3(0.1, 0.1, 0.15); 
-            for (int i = 0; i < 10; i++) {
-                float i_float = float(i);
-                float angle = u_time * 0.2 + (i_float * 3.14159 * 0.4);
-                vec2 light_pos = vec2(cos(angle), sin(angle)) * 0.25;
-                float light_dist = distance(uv - 0.5, light_pos);
-                float line = 1.0 - smoothstep(0.0, 0.001, light_dist - 0.1);
-                col += vec3(line) * (0.5 + 0.5 * sin(i_float * 2.0));
-            }
-            return col;
-        }
+<!-- ═══════════════════════════════════
+     CHAPTER 2 — MORINGA
+     ═══════════════════════════════════ -->
+<article class="chapter" id="ch-moringa" role="tabpanel">
+  <div class="ch-hero c2">
+    <div class="ch-hero-inner">
+      <div>
+        <p class="ch-num" data-k="ch2_num">Chapter 2</p>
+        <h2 data-k="ch2_title">Moringa</h2>
+      </div>
+      <span class="ch-icon" aria-hidden="true">🌱</span>
+      <p class="ch-intro" data-k="ch2_intro"></p>
+    </div>
+  </div>
+  <div class="ch-body">
+    <div class="needs-box">
+      <h3 data-k="needs_heading">What You Need</h3>
+      <ul class="needs-list">
+        <li data-k="ch2_n0"></li><li data-k="ch2_n1"></li>
+        <li data-k="ch2_n2"></li><li data-k="ch2_n3"></li>
+        <li data-k="ch2_n4"></li>
+      </ul>
+    </div>
+    <p class="sec-label" data-k="ch2_sec1">Part 1</p>
+    <div class="step g"><div class="step-num">1</div><div class="step-main" data-k="ch2_s1"></div></div>
+    <div class="step g"><div class="step-num">2</div><div class="step-main" data-k="ch2_s2"></div></div>
+    <div class="step g"><div class="step-num">3</div><div class="step-main" data-k="ch2_s3"></div></div>
+    <p class="sec-label" data-k="ch2_sec2">Part 2</p>
+    <div class="warn-box"><span class="warn-icon" aria-hidden="true">⚠️</span><p data-k="ch2_warning"></p></div>
+    <div class="step g"><div class="step-num">4</div><div class="step-main" data-k="ch2_s4"></div></div>
+    <div class="step g"><div class="step-num">5</div><div class="step-main" data-k="ch2_s5"></div></div>
+    <div class="step g"><div class="step-num">6</div><div class="step-main" data-k="ch2_s6"></div></div>
+    <p class="sec-label" data-k="ch2_sec3">Part 3</p>
+    <div class="step g"><div class="step-num">7</div><div class="step-main" data-k="ch2_s7"></div></div>
+    <div class="step g"><div class="step-num">8</div><div class="step-main" data-k="ch2_s8"></div></div>
+    <div class="rem-box">
+      <h3>⭐ <span data-k="remember_heading">Remember This</span></h3>
+      <div class="rem-items">
+        <div class="rem-item" data-k="ch2_r0"></div>
+        <div class="rem-item" data-k="ch2_r1"></div>
+        <div class="rem-item" data-k="ch2_r2"></div>
+      </div>
+    </div>
+  </div>
+</article>
 
-        vec4 fxaa(vec2 uv, vec2 texelSz) {
-          const float span_max = 8.0;
-          const float reduce_min = (1.0/128.0);
-          const float reduce_mul = (1.0/32.0);
-          const vec3 luma = vec3(0.299, 0.587, 0.114);
+<!-- ═══════════════════════════════════
+     CHAPTER 3 — WATER
+     ═══════════════════════════════════ -->
+<article class="chapter" id="ch-water" role="tabpanel">
+  <div class="ch-hero c3">
+    <div class="ch-hero-inner">
+      <div>
+        <p class="ch-num" data-k="ch3_num">Chapter 3</p>
+        <h2 data-k="ch3_title">Safe Water &amp; ORS</h2>
+      </div>
+      <span class="ch-icon" aria-hidden="true">💧</span>
+      <p class="ch-intro" data-k="ch3_intro"></p>
+    </div>
+  </div>
+  <div class="ch-body">
+    <p class="sec-label" data-k="ch3_sec1">Method 1</p>
+    <div class="step b"><div class="step-num">1</div><div class="step-main" data-k="ch3_b1"></div></div>
+    <div class="step b"><div class="step-num">2</div><div class="step-main" data-k="ch3_b2"></div></div>
+    <div class="step b"><div class="step-num">3</div><div class="step-main" data-k="ch3_b3"></div></div>
+    <hr class="div">
+    <p class="sec-label" data-k="ch3_sec2">Method 2</p>
+    <div class="step b"><div class="step-num">1</div><div class="step-main" data-k="ch3_sodis1"></div></div>
+    <div class="step b"><div class="step-num">2</div><div class="step-main" data-k="ch3_sodis2"></div></div>
+    <div class="step b"><div class="step-num">3</div><div class="step-main" data-k="ch3_sodis3"></div></div>
+    <hr class="div">
+    <p class="sec-label" data-k="ch3_sec3">Method 3</p>
+    <div class="step b"><div class="step-num">1</div><div class="step-main" data-k="ch3_cloth1"></div></div>
+    <div class="step b"><div class="step-num">2</div><div class="step-main" data-k="ch3_cloth2"></div></div>
+    <div class="warn-box"><span class="warn-icon" aria-hidden="true">⚠️</span><p data-k="ch3_cloth_warning"></p></div>
+    <hr class="div">
+    <p class="sec-label" data-k="ch3_sec4">ORS</p>
+    <p style="font-size:.88rem;color:var(--txt2);margin-bottom:12px" data-k="ch3_ors_intro"></p>
+    <div class="ors-box">
+      <h3 data-k="ors_title">ORS Recipe</h3>
+      <div class="ors-row">
+        <div class="ors-item"><div class="ors-amt">1L</div><div class="ors-ing" data-k="ors_water"></div></div>
+        <span class="ors-plus" aria-hidden="true">+</span>
+        <div class="ors-item"><div class="ors-amt">6</div><div class="ors-ing" data-k="ors_sugar"></div></div>
+        <span class="ors-plus" aria-hidden="true">+</span>
+        <div class="ors-item"><div class="ors-amt">½</div><div class="ors-ing" data-k="ors_salt"></div></div>
+      </div>
+      <p class="ors-note" data-k="ors_mix"></p>
+    </div>
+    <div class="warn-box"><span class="warn-icon" aria-hidden="true">🏥</span><p data-k="ch3_clinic_warning"></p></div>
+    <div class="rem-box">
+      <h3>⭐ <span data-k="remember_heading">Remember This</span></h3>
+      <div class="rem-items">
+        <div class="rem-item" data-k="ch3_r0"></div>
+        <div class="rem-item" data-k="ch3_r1"></div>
+        <div class="rem-item" data-k="ch3_r2"></div>
+      </div>
+    </div>
+  </div>
+</article>
 
-          vec3 rgbCC = scene(uv);
-          vec3 rgb00 = scene(uv + vec2(-0.5, -0.5) * texelSz);
-          vec3 rgb10 = scene(uv + vec2(0.5, -0.5) * texelSz);
-          vec3 rgb01 = scene(uv + vec2(-0.5, 0.5) * texelSz);
-          vec3 rgb11 = scene(uv + vec2(0.5, 0.5) * texelSz);
+<!-- ═══════════════════════════════════
+     CHAPTER 4 — SOIL
+     ═══════════════════════════════════ -->
+<article class="chapter" id="ch-soil" role="tabpanel">
+  <div class="ch-hero c4">
+    <div class="ch-hero-inner">
+      <div>
+        <p class="ch-num" data-k="ch4_num">Chapter 4</p>
+        <h2 data-k="ch4_title">Soil, Compost &amp; Rotation</h2>
+      </div>
+      <span class="ch-icon" aria-hidden="true">🪱</span>
+      <p class="ch-intro" data-k="ch4_intro"></p>
+    </div>
+  </div>
+  <div class="ch-body">
+    <p class="sec-label" data-k="ch4_signs_heading">Signs</p>
+    <ul class="needs-list" style="margin-bottom:16px">
+      <li data-k="ch4_sign0"></li><li data-k="ch4_sign1"></li>
+      <li data-k="ch4_sign2"></li><li data-k="ch4_sign3"></li>
+    </ul>
+    <p class="sec-label" data-k="ch4_sec1">Part 1</p>
+    <div class="needs-box">
+      <h3 data-k="needs_heading">What You Need</h3>
+      <ul class="needs-list">
+        <li data-k="ch4_n0"></li><li data-k="ch4_n1"></li>
+        <li data-k="ch4_n2"></li><li data-k="ch4_n3"></li>
+        <li data-k="ch4_n4"></li>
+      </ul>
+    </div>
+    <div class="step o"><div class="step-num">1</div><div class="step-main" data-k="ch4_s1"></div></div>
+    <div class="step o"><div class="step-num">2</div><div class="step-main" data-k="ch4_s2"></div></div>
+    <div class="step o"><div class="step-num">3</div><div class="step-main" data-k="ch4_s3"></div></div>
+    <div class="step o"><div class="step-num">4</div><div class="step-main" data-k="ch4_s4"></div></div>
+    <div class="step o"><div class="step-num">5</div><div class="step-main" data-k="ch4_s5"></div></div>
+    <hr class="div">
+    <p class="sec-label" data-k="ch4_sec2">Part 2</p>
+    <div class="step o"><div class="step-num">1</div><div class="step-main" data-k="ch4_zai1"></div></div>
+    <div class="step o"><div class="step-num">2</div><div class="step-main" data-k="ch4_zai2"></div></div>
+    <div class="step o"><div class="step-num">3</div><div class="step-main" data-k="ch4_zai3"></div></div>
+    <hr class="div">
+    <p class="sec-label" data-k="ch4_sec3">Part 3</p>
+    <div class="step o"><div class="step-num">1</div><div class="step-main" data-k="ch4_rot1"></div></div>
+    <div class="step o"><div class="step-num">2</div><div class="step-main" data-k="ch4_rot2"></div></div>
+    <div class="step o"><div class="step-num">3</div><div class="step-main" data-k="ch4_rot3"></div></div>
+    <div class="rem-box">
+      <h3>⭐ <span data-k="remember_heading">Remember This</span></h3>
+      <div class="rem-items">
+        <div class="rem-item" data-k="ch4_r0"></div>
+        <div class="rem-item" data-k="ch4_r1"></div>
+        <div class="rem-item" data-k="ch4_r2"></div>
+      </div>
+    </div>
+  </div>
+</article>
 
-          float lumaCC = dot(rgbCC, luma);
-          float luma00 = dot(rgb00, luma);
-          float luma10 = dot(rgb10, luma);
-          float luma01 = dot(rgb01, luma);
-          float luma11 = dot(rgb11, luma);
-          
-          vec2 dir = vec2((luma01 + luma11) - (luma00 + luma10), (luma00 + luma01) - (luma10 + luma11));
-          float dirReduce = max((luma00 + luma10 + luma01 + luma11) * reduce_mul, reduce_min);
-          float rcpDir = 1.0 / (min(abs(dir.x), abs(dir.y)) + dirReduce);
-          
-          dir = clamp(dir * rcpDir, -span_max, span_max) * texelSz;
-          
-          vec3 rgbA = 0.5 * (scene(uv - dir * (1.0/6.0)) + scene(uv + dir * (1.0/6.0)));
-          vec3 rgbB = rgbA * 0.5 + 0.25 * (scene(uv - dir * 0.5) + scene(uv + dir * 0.5));
-          
-          float lumaB = dot(rgbB, luma);
-          float lumaMin = min(lumaCC, min(min(luma00, luma10), min(luma01, luma11)));
-          float lumaMax = max(lumaCC, max(max(luma00, luma10), max(luma01, luma11)));
-          
-          if ((lumaB < lumaMin) || (lumaB > lumaMax)) {
-              return vec4(rgbA, 1.0);
-          } else {
-              return vec4(rgbB, 1.0);
-          }
-        }
+<!-- ═══════════════════════════════════
+     CHAPTER 5 — HEALTH
+     ═══════════════════════════════════ -->
+<article class="chapter" id="ch-health" role="tabpanel">
+  <div class="ch-hero c5">
+    <div class="ch-hero-inner">
+      <div>
+        <p class="ch-num" data-k="ch5_num">Chapter 5</p>
+        <h2 data-k="ch5_title">Essential Health Basics</h2>
+      </div>
+      <span class="ch-icon" aria-hidden="true">❤️</span>
+      <p class="ch-intro" data-k="ch5_intro"></p>
+    </div>
+  </div>
+  <div class="ch-body">
+    <div class="hc-grid">
 
-        void main() {
-          vec2 uv = gl_FragCoord.xy / u_resolution.xy;
-          vec2 texelSz = 1.0 / u_resolution.xy;
-          gl_FragColor = fxaa(uv, texelSz);
-        }
-    </script>
+      <div class="hc hc-hands">
+        <div class="hc-head"><span class="hc-icon" aria-hidden="true">🧼</span><h3 data-k="hc1_title"></h3></div>
+        <div class="hc-body">
+          <p style="font-size:.82rem;color:var(--txt3);margin-bottom:9px" data-k="hc1_intro"></p>
+          <ul>
+            <li data-k="hc1_l0"></li><li data-k="hc1_l1"></li><li data-k="hc1_l2"></li>
+            <li data-k="hc1_l3"></li><li data-k="hc1_l4"></li>
+          </ul>
+          <p class="hc-note" data-k="hc1_note"></p>
+        </div>
+      </div>
 
-    <script>
-        const canvas = document.getElementById('shader-canvas');
-        const gl = canvas.getContext('webgl');
+      <div class="hc hc-malaria">
+        <div class="hc-head"><span class="hc-icon" aria-hidden="true">🦟</span><h3 data-k="hc2_title"></h3></div>
+        <div class="hc-body">
+          <p class="hc-sublabel" data-k="hc2_prevent_label"></p>
+          <ul>
+            <li data-k="hc2_p0"></li><li data-k="hc2_p1"></li>
+            <li data-k="hc2_p2"></li><li data-k="hc2_p3"></li>
+          </ul>
+          <p class="hc-sublabel red" data-k="hc2_signs_label"></p>
+          <ul>
+            <li data-k="hc2_s0"></li><li data-k="hc2_s1"></li>
+            <li data-k="hc2_s2"></li><li data-k="hc2_s3"></li>
+          </ul>
+        </div>
+      </div>
 
-        if (!gl) {
-            console.error("WebGL is not supported.");
-        } else {
-            const vsSource = document.getElementById('vertex-shader').textContent;
-            const fsSource = document.getElementById('fragment-shader').textContent;
+      <div class="hc hc-preg">
+        <div class="hc-head"><span class="hc-icon" aria-hidden="true">🤰</span><h3 data-k="hc3_title"></h3></div>
+        <div class="hc-body">
+          <p style="font-size:.82rem;color:var(--txt3);margin-bottom:9px" data-k="hc3_intro"></p>
+          <ul>
+            <li data-k="hc3_l0"></li><li data-k="hc3_l1"></li><li data-k="hc3_l2"></li>
+            <li data-k="hc3_l3"></li><li data-k="hc3_l4"></li><li data-k="hc3_l5"></li>
+            <li data-k="hc3_l6"></li>
+          </ul>
+          <p class="hc-note" data-k="hc3_anc"></p>
+        </div>
+      </div>
 
-            const vertexShader = createShader(gl, gl.VERTEX_SHADER, vsSource);
-            const fragmentShader = createShader(gl, gl.FRAGMENT_SHADER, fsSource);
-            const program = createProgram(gl, vertexShader, fragmentShader);
+      <div class="hc hc-wound">
+        <div class="hc-head"><span class="hc-icon" aria-hidden="true">🩹</span><h3 data-k="hc4_title"></h3></div>
+        <div class="hc-body">
+          <ul>
+            <li data-k="hc4_l0"></li><li data-k="hc4_l1"></li><li data-k="hc4_l2"></li>
+            <li data-k="hc4_l3"></li><li data-k="hc4_l4"></li>
+          </ul>
+          <p class="hc-sublabel red" data-k="hc4_go_label"></p>
+          <ul>
+            <li data-k="hc4_g0"></li><li data-k="hc4_g1"></li>
+            <li data-k="hc4_g2"></li><li data-k="hc4_g3"></li>
+          </ul>
+        </div>
+      </div>
 
-            const positionAttributeLocation = gl.getAttribLocation(program, "a_position");
-            const resolutionUniformLocation = gl.getUniformLocation(program, "u_resolution");
-            const timeUniformLocation = gl.getUniformLocation(program, "u_time");
+      <div class="hc hc-muac" style="grid-column:1/-1">
+        <div class="hc-head"><span class="hc-icon" aria-hidden="true">📏</span><h3 data-k="hc5_title"></h3></div>
+        <div class="hc-body">
+          <p style="font-size:.82rem;color:var(--txt3);margin-bottom:10px" data-k="hc5_intro"></p>
+          <ul>
+            <li data-k="hc5_c0"></li><li data-k="hc5_c1"></li><li data-k="hc5_c2"></li>
+          </ul>
+          <p class="hc-note" data-k="hc5_note"></p>
+        </div>
+      </div>
 
-            const positionBuffer = gl.createBuffer();
-            gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
-            const positions = [-1, -1, 1, -1, -1, 1, -1, 1, 1, -1, 1, 1];
-            gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
+    </div>
+  </div>
+</article>
 
-            function render(time) {
-                time *= 0.001; 
+</main>
 
-                resizeCanvasToDisplaySize(gl.canvas);
-                gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);
+<div id="offline-badge" role="status" aria-live="polite" data-k="offline_badge">📴 Offline</div>
 
-                gl.clearColor(0, 0, 0, 0);
-                gl.clear(gl.COLOR_BUFFER_BIT);
+<footer>
+  <p data-k="footer_text">This guide is for educational purposes. Always consult a qualified health worker for medical decisions.</p>
+  <p style="margin-top:5px;opacity:.7">Fuuta Tooro, Northern Senegal · Pulaar · Wolof · Français · English</p>
+</footer>
 
-                gl.useProgram(program);
-                gl.enableVertexAttribArray(positionAttributeLocation);
-                gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
-                gl.vertexAttribPointer(positionAttributeLocation, 2, gl.FLOAT, false, 0, 0);
-
-                gl.uniform2f(resolutionUniformLocation, gl.canvas.width, gl.canvas.height);
-                gl.uniform1f(timeUniformLocation, time);
-
-                gl.drawArrays(gl.TRIANGLES, 0, 6);
-
-                requestAnimationFrame(render);
-            }
-
-            requestAnimationFrame(render);
-        }
-
-        function createShader(gl, type, source) {
-            const shader = gl.createShader(type);
-            gl.shaderSource(shader, source);
-            gl.compileShader(shader);
-            if (gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
-                return shader;
-            }
-            console.error("An error occurred compiling the shaders: " + gl.getShaderInfoLog(shader));
-            gl.deleteShader(shader);
-        }
-
-        function createProgram(gl, vertexShader, fragmentShader) {
-            const program = gl.createProgram();
-            gl.attachShader(program, vertexShader);
-            gl.attachShader(program, fragmentShader);
-            gl.linkProgram(program);
-            if (gl.getProgramParameter(program, gl.LINK_STATUS)) {
-                return program;
-            }
-            console.error("Unable to initialize the shader program: " + gl.getProgramInfoLog(program));
-            gl.deleteProgram(program);
-        }
-
-        function resizeCanvasToDisplaySize(canvas) {
-            const displayWidth  = canvas.clientWidth;
-            const displayHeight = canvas.clientHeight;
-            if (canvas.width  !== displayWidth || canvas.height !== displayHeight) {
-                canvas.width  = displayWidth;
-                canvas.height = displayHeight;
-                return true;
-            }
-            return false;
-        }
-
-        // Register the Service Worker
-        if ('serviceWorker' in navigator) {
-          window.addEventListener('load', () => {
-            // Use a relative path for GitHub Pages
-            navigator.serviceWorker.register('./sw.js').then(registration => {
-              console.log('ServiceWorker registration successful with scope: ', registration.scope);
-            }, err => {
-              console.log('ServiceWorker registration failed: ', err);
-            });
-          });
-        }
-    </script>
+<script src="app.js"></script>
 </body>
 </html>
