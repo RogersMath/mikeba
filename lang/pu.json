@@ -1,0 +1,204 @@
+{
+  "lang_attr": "pu",
+  "dir": "ltr",
+  "lang_label": "Pulaar",
+
+  "site_title": "Deftere Golle",
+  "site_subtitle": "Laawol Nguurndam e Leydi — Fuuta Tooro",
+  "install_text": "📲 Nabbitu deftere nde — waawi gollude taa ndiyam telefoonde weeɓi",
+  "install_btn": "Nabbitu",
+  "offline_badge": "📴 Taa reseoo — ko nabbinaa wooɗi",
+  "footer_text": "Deftere nde ko tafirde jannde tan. Yimtu e ganndo kesol tee a foti gollude.",
+
+  "tab_duckweed": "Lɛngɛl",
+  "tab_moringa": "Nebeday",
+  "tab_water": "Ndiyam",
+  "tab_soil": "Leydi",
+  "tab_health": "Kesol",
+
+  "needs_heading": "Ko Nanndi",
+  "steps_heading": "Golle — Ko Waɗata",
+  "remember_heading": "Haalanoo e Nder Jeyi",
+
+  "ch1_num": "Caapitru 1",
+  "ch1_title": "Lɛngɛl",
+  "ch1_intro": "Lɛngɛl ko bitnde famɗunde yimata e ndiyam. Ɗum fota ɓolana hannde e ɓalɗe ɗiɗi haa tati. Taf e nder dabbunde — ɗum hokkata gertooɗi, beɗeeje e liɗɗi tiiɗude koo ko asamaan.",
+  "ch1_needs": [
+    "Dabbunde mawnde (ceeɗal 50 litre) go'o",
+    "Ndiyam ceenal — kasaa, barma walla fooyre",
+    "Lɛngɛl bitnde heɓtiraa e kasaa walla fooyre",
+    "Ndiyam wunde ɓiccunde (ciiɗi 1 wunde e ciiɗi 10 ndiyam ceenal)",
+    "Tiinde lewnde seeda — taa naange mawnde fof"
+  ],
+  "ch1_s1": "Haa ndiyam ceenal e nder dabbunde mawnde maa — yettoo heege biyee juuɗe e toowol.",
+  "ch1_s2": "Sos lɛngɛl heɓtiraa e kasaa e nder dabbunde. Jooɗo faa ɗum nattu.",
+  "ch1_s3": "Sos tafirde: ciiɗi 1 ndiyam wunde e ciiɗi 10 ndiyam ceenal. Fiiltu yamɗam. Taa heegu — ɗum wona bonde e lɛngɛl.",
+  "ch1_s4": "Soos dabbunde e tiinde lewnde seeda. Lɛngɛl heɓa naange kono bonde e naange mawnde fof.",
+  "ch1_s5": "Jooɗo ɓalɗe joy haa jeɗɗaɓe. Lɛngɛl roofa e nder dabbunde. Ɗum mawni.",
+  "ch1_s6": "Heɓtu feccere lɛngɛl e juuɗe maa. Faatu feccere ndee e dabbunde woɗnde e ndiyam ceenal. Ɗon ngona dabbunde ɗiɗi.",
+  "ch1_s7": "Hokku lɛngɛl heɓtaɗaa e gertooɗi, beɗeeje walla liɗɗi maa hannde. Ɓe ñaamata.",
+  "ch1_s8": "Waɗtu heɓtugol fol ɓalɗe tati haa nay. Golle ɗee tiggini kala lewru.",
+  "ch1_remember": [
+    "Sos ciiɗi 1 wunde e ciiɗi 10 ndiyam — taa ɓuru.",
+    "Heɓtu feccere fol ɓalɗe tati haa nay.",
+    "Joos e tiinde lewnde — taa naange mawnde fof hannde."
+  ],
+
+  "ch2_num": "Caapitru 2",
+  "ch2_title": "Nebeday (Moringa)",
+  "ch2_intro": "Nebeday ɗaɓɓita e kasaa Fuuta Tooro. Ciimbol mum ɓuri ŋŋube e asamaan, ɓuri kosam e kaŋŋe, ɓuri karote e Vitamiini A. Ɓifal go'o pooɗre kala ñalawma — ɗum dartinata biyɗe, suuɗiibe e mawɓe bonniingo nguurndam.",
+  "ch2_needs": [
+    "Leɗɗe nebeday go'o — walla ɗayre ngam ɗaɓɓugol",
+    "Ndiyam ceenal ngam fuutugol",
+    "Kanal ceenal walla ngaari ngam naltugol",
+    "Suudu walla tiinde lewnde — TAA naange mawnde",
+    "Mortar e pilon ngam piilogol ciimbol ɗee"
+  ],
+  "ch2_sec1": "Coggu 1 — Heɓtugol Ciimbol",
+  "ch2_s1": "Suɓo ciimbol ɓuuɓnde toownde e ɗaafe maɓɓe. Ko ɗee ɓuri nafude.",
+  "ch2_s2": "Buɗtu ciimbol yamɗam e juuɗe maa. Taa haat e daanɗe maayo leɗɗe. Haa ɗayre ɗaɓɓa ciimbol caka.",
+  "ch2_s3": "Fuuta ciimbol ɗee e ndiyam ceenal ngam remo booñe e saabu.",
+  "ch2_sec2": "Coggu 2 — Naltugol (Toɓɓere Mawnde)",
+  "ch2_warning": "TAA NALTIR ciimbol nebeday e naange mawnde. Naange bonnata vitamines fof. Naltu e tiinde lewnde keeriiɗo.",
+  "ch2_s4": "Saaktu ciimbol yamɗam e kanal ceenal e tiinde lewnde, naange taa tampu ɗon.",
+  "ch2_s5": "Fuutu ciimbol fof ñalawma. Baawo ɓalɗe ɗiɗi haa tati — ɗe waɗa koo boo e juuɗe maa. Ɗe raffatii.",
+  "ch2_s6": "Piiltu ciimbol raftataa e mortar ngam waɗde pooɗre pamɗude. Saafu ɗaafe.",
+  "ch2_sec3": "Coggu 3 — Golle Pooɗre",
+  "ch2_s7": "Sos ɓifal go'o pooɗre e haako maa walla e cere biyɗe maa fol kala ñalawma.",
+  "ch2_s8": "Sos pooɗre TEEƊTAA haako yurata e jaynde. Naange bonnata nafore. Sos tee haako juuri.",
+  "ch2_remember": [
+    "Naltu e tiinde lewnde tan — TAA naange mawnde.",
+    "Sos pooɗre tee haako yurata, taa e haako nde yura.",
+    "Ɓifal go'o fol ñalawma — biyɗe, suuɗiibe e mawɓe."
+  ],
+
+  "ch3_num": "Caapitru 3",
+  "ch3_title": "Ndiyam Jam e ORS",
+  "ch3_intro": "Ndiyam renndangal alaa ko hisa ɗum ceenal. Ndiyam bonnangal ko ɓuraande waawtude biyɗe. Ko ɗoo weltirtee hol no saakatagol ndiyam e no tafiratagol ORS, ndiyam nguurndam ngal walata boomre.",
+  "ch3_sec1": "Mbaydi 1 — Ummu Ndiyam (Ɓuri Sikkee)",
+  "ch3_b1": "Haa ndiyam e nder kaŋŋe ceenal.",
+  "ch3_b2": "Jaaɓu faa yura fof ful-ful. Jooɗo hedde miniti go'o nde yuriri.",
+  "ch3_b3": "Suttu kaŋŋe. Jooɗo faa seeta. Heblo e nder suudu ceenal kaɓɓangal. Taa toondoy e ndiyam ɗam e juuɗe ɓennoriɗe.",
+  "ch3_sec2": "Mbaydi 2 — SODIS (Naange Waɗata)",
+  "ch3_sodis1": "Heɓtu suudu ɓilngu PET ceenal (koo ko ndiyam walla bibind waɗanoo ɗum). Haa ndiyam faa ɓuri heɓde.",
+  "ch3_sodis2": "Tiinde suudu ndee e tiinde hiirde (laahe walla dow suudu) e naange ɓalɗe 6 haa 8 waktu.",
+  "ch3_sodis3": "So naange yanaani fof, jooɗo ɓalɗe ɗiɗi (waktu 48). Naange waɗata microbe e ngalɓe.",
+  "ch3_sec3": "Mbaydi 3 — Taatirde e Kanal (Ndiyam Renndangal)",
+  "ch3_cloth1": "Taaɗtu kanal ceenal gargol tataɓel.",
+  "ch3_cloth2": "Firtii ndiyam e kanal ndee haa yeewa e nder suudu ceenal. Ko ɗum remo booñe mawnde.",
+  "ch3_cloth_warning": "Taatirde kanal tan WALLATAA ndiyam yahda ceenal. Waɗ kadi ummu walla SODIS.",
+  "ch3_sec4": "ORS — Ndiyam Nguurndam e Boomre",
+  "ch3_ors_intro": "Boomre nawdata ndiyam e kosam ngolu hannde tiiɗnii. Ɗum marata biyɗe. ORS rokkina ko yotii. Taf ko hollirtee.",
+  "ors_title": "ORS — Litre Go'o",
+  "ors_water": "Ndiyam ummuɗo ceenal",
+  "ors_sugar": "Ciiɗi jeegom suukara",
+  "ors_salt": "Feccere ciiɗi melɓe",
+  "ors_mix": "Fiiltu feeɓndaare. Hokku yamɗam kala sahaa. Taf caka fol ñalawma.",
+  "ch3_clinic_warning": "Yimani e pootal hannde so: gite biyɗi ko e nder, winndaare alaa illam, waawaa yarugol, gite yiri jom, walla boomre waɗi ɓalɗe 2 taa seli.",
+  "ch3_remember": [
+    "Ummu ndiyam ko ɓuri ceenal.",
+    "ORS: Litre 1 ndiyam + ciiɗi jeegom suukara + feccere ciiɗi melɓe.",
+    "Gite e nder, illam alaa, taa yantoo — yimani e pootal hannde!"
+  ],
+
+  "ch4_num": "Caapitru 4",
+  "ch4_title": "Leydi, Compost e Ɓoltal Ngesa",
+  "ch4_intro": "Leydi doomi — laabooji famɗi. Waawi reftugol taa soodude ko foti. Compost ñaminta leydi e ko a yoti fof. Gunde Zai heɓtata ndiyam toɓo. Ɓoltal ngesa hokkata leydi seeda kertugol.",
+  "ch4_signs_heading": "Hiisaaji Leydi Doomii",
+  "ch4_signs": [
+    "Leydi rondata e tiiɗtude baawo toɓo",
+    "Haayre lekki kono taa rofa tawo",
+    "Laabooji famɗi kala duuɓi",
+    "Leydi renndii ɓeydaari, taa ɓooyi"
+  ],
+  "ch4_sec1": "Coggu 1 — Tafirde Compost",
+  "ch4_needs": [
+    "Ko yottinoyi: ciimbol ceenal, ñamri yotnoo, teeyre naataande",
+    "Ko muusi: teeyre ngesa, ɓoggol yooɗaɗo, baaɓe",
+    "Nafaa mbooɗi (beɗeeje, gertooɗi)",
+    "Ndiyam seeda",
+    "Gunde compost walla suudu — miter 1 × miter 1"
+  ],
+  "ch4_s1": "Habbitu gunde compost sara ngesa maa — hedde miter 1 × miter 1. Walla waɗ pelle e tiinde leydi.",
+  "ch4_s2": "Sos pelle diiwaan-diiwaan: ko muusi adii, ɓe ko yottinoyi, ɓe nafaa mbooɗi. Waɗtu.",
+  "ch4_s3": "Liidu ndiyam seeda faa compost dami kono taa meli fof.",
+  "ch4_s4": "Ɓoltu e fiilugol pelle fol ɓalɗe jeɗɗaɓe ɗiɗi. Ɓoltal wallita ɗum yoɓɓugol.",
+  "ch4_s5": "Baawo lewru tati haa nay, compost ɓooyi, roofa, rondata koo leydi. Sos e nder leydi ngesa maa hannde.",
+  "ch4_sec2": "Coggu 2 — Gunde Zai (Heɓtugol Ndiyam Toɓo)",
+  "ch4_zai1": "Hannde ngesa, waɗu gunde famɗunde e leydi — hedde 30 cm hakkunde maɓɓe.",
+  "ch4_zai2": "Sos ɓirngal seeda compost walla nafaa mbooɗi e nder kala gunde.",
+  "ch4_zai3": "Ɗaɓɓu haayre maa e nder gunde ndee. So toɓo yehi, ndiyam heɓata e nder — taa yahdu. Ɗum ñaminta haayre.",
+  "ch4_sec3": "Coggu 3 — Ɓoltal Ngesa",
+  "ch4_rot1": "Taa ɗaɓɓu gawiiri walla maaro e ngesa go'o kala duuɓi. Leydi ndee doomata.",
+  "ch4_rot2": "Baawo gawiiri, ɗaɓɓu niɓɓe e ngesa ndee. Niɓɓe habbata nguurndam (azote) e nder leydi.",
+  "ch4_rot3": "Baawo laabooji, sos teeyre niɓɓe e nder leydi — taa ɓir. Ɗe reftinata e caaɓata leydi.",
+  "ch4_remember": [
+    "Compost tafetee e ko a yoti fof — alaa ko foti soodude.",
+    "Gunde Zai heɓtata toɓo taa ɗam yahdu e naataande.",
+    "Ɓoltu: gawiiri → niɓɓe → gawiiri. Leydi ndee reftotoo."
+  ],
+
+  "ch5_num": "Caapitru 5",
+  "ch5_title": "Toɓɓe Kesol Caaɗe",
+  "ch5_intro": "Toɓɓe joy ko dartinata nguurndam ɓuri — kono ɗe ɓuri ñaamaago ko jannde. Fuutugol juuɗe, baasgol njamndi, hiisaaji suuɗiibe, haayre baatol e haɓitugol nguurndam biyɗe.",
+  "hc1_title": "Waktu Joy Caaɗe Fuutugol Juuɗe",
+  "hc1_intro": "Boomre e baasgol hunuko ɓuri yahde e juuɗe mooɗe. Waktu joy koo ko caaɗe — woɗɗi ɓuri wooɗude.",
+  "hc1_list": [
+    "Baawo joolugo walla heɓtugol e WC",
+    "Baawo naattoraade biyɗi joolunooɗo",
+    "Hannde ngam ñamtogol",
+    "Hannde ngam ñamugol",
+    "Hannde ngam ñamtugol biyɗi walla ɓirsugol"
+  ],
+  "hc1_note": "Fuutu e sabuunu e ndiyam hedde sekonn 20. So sabuunu alaa — waɗu baaɓe. Baaɓe nafata.",
+  "hc2_title": "Njamndi — Dartugol e Hiisaaji Caaɗe",
+  "hc2_prevent_label": "Dartugol:",
+  "hc2_prevent": [
+    "Woynto e nder layre njamndi jiiɓanaa kala jamma — teeŋti biyɗe e suuɗiibe",
+    "Firti ndiyam jooɗangal sara suudu maa — kala yontere",
+    "Moom walla haa ndiyam jooɗangal e hedde 100 miter e suudu maa",
+    "Deftu yeeso mawɗo baawo naange yaati — njamndi ɗowiri toon"
+  ],
+  "hc2_signs_label": "Hiisaaji mawnde — yimani e pootal hannde:",
+  "hc2_signs": [
+    "Weeɓoo e daldolugol walla wanngol (teeŋti biyɗi)",
+    "Biyɗi yiɗaa kewnugol walla waawaa wuggugol",
+    "Weeɓoo waɗi hedde 24 waktu taa seli",
+    "Hakkunde maayangal — waawaa heɓtude ndiyam"
+  ],
+  "hc3_title": "Suuɗiibe — Hiisaaji Mawnde",
+  "hc3_intro": "Yimani e pootal hannde — taa jooɗo — so suuɗibe hollata hiisaaji ɗii:",
+  "hc3_list": [
+    "Jom mawnde e nder suudu gawri kala sahaa e nder suuɗugol",
+    "Hoore mawnde toɗɗo walla yitere faatike (hiisa nguleeki jom)",
+    "Gite e juuɗe roofi (hiisa preeklampsi)",
+    "Biyɗi dartii yiilugol heɓde 12 waktu",
+    "Ndiyam suuɗugol yetti hannde ko laawol taa ɗaɓɓike",
+    "Weeɓoo mawnde e nder suuɗugol",
+    "Suuɗugol waɗi hedde 12 waktu taa biyɗi arii"
+  ],
+  "hc3_anc": "Yimtu e pootal kesol fol tataɓel nay e nder suuɗugol — koo ne a faami.",
+  "hc4_title": "Golle Haayre Baatol",
+  "hc4_list": [
+    "Caaɓu kala baatol hannde e ndiyam ceenal flowing hedde miniti 5",
+    "Remo booñe e saabu yamɗam — taa yuutu toɗɗo",
+    "Suttu e kanal ceenal walla bandaaji",
+    "Juɓɓinu suttu nduu kala ñalawma",
+    "TAA sos leydi, ciimbol, nafaa mbooɗi walla moni e nder baatol — ɗum waɗata teetaanus e baasgol"
+  ],
+  "hc4_go_label": "Yimani e pootal so:",
+  "hc4_go": [
+    "Baatol ɓooyi jom keeriiɗo wowlotooɗo — ko ɗum baasgol jom",
+    "Baatol ko biitoonde walla tonndo toɗɗo",
+    "Weeɓoo ari baawo baatol",
+    "Baatol woni e ɓalɗe ɗiɗi e gosi walla bonde"
+  ],
+  "hc5_title": "Nguurndam Biyɗi — Haɓitugol MUAC",
+  "hc5_intro": "MUAC (ngalɗi laaɓunde e nder koyngal) ko jaabunde ɓurande naftude ngam miijugol so biyɗi — lewru jeegom haa duuɓi joy — ngoni bonniingo nguurndam. Calcu koyngal toowol e ɗaago walla ɗoɓɓo.",
+  "hc5_colors": [
+    "<strong style='color:var(--green)'>ƁOOYI (dow cm 12.5)</strong> — Biyɗi nguura jam. Haa ñamude nafotoo.",
+    "<strong style='color:#CC8800'>ƁEYDAARI (cm 11.5–12.5)</strong> — Biyɗi e yiɗde bonnugol. Ɓeydu ñamri. Sos pooɗre nebeday kala ñalawma.",
+    "<strong style='color:#CC3300'>JOM (dow cm 11.5)</strong> — Biyɗi ngoni e bonniingo nguurndam toɗɗo. Yimani e pootal hannde."
+  ],
+  "hc5_note": "Haɓit MUAC biyɗi maa kala lewru. Biyɗi taa maɓɓina — ɗum heɓa wallude hannde, taa aade."
+}
