@@ -1,0 +1,204 @@
+{
+  "lang_attr": "wo",
+  "dir": "ltr",
+  "lang_label": "Wolof",
+
+  "site_title": "Deftere Golle",
+  "site_subtitle": "Xam-xam ci Sàmm ak Ngénté — Senegaal Reew mi",
+  "install_text": "📲 Bind ci telefon bi — dafa mën dëkk benn sëriñ rekk",
+  "install_btn": "Bind Ci Telefon",
+  "offline_badge": "📴 Connecté moo ci bëgg — njiitu ci yëgël bi",
+  "footer_text": "Deftere bii dafa jëfandikoo ci jàng rekk. Jëfandikoo ku xam yëgël sàmm.",
+
+  "tab_duckweed": "Lëngël",
+  "tab_moringa": "Nebeday",
+  "tab_water": "Ndox",
+  "tab_soil": "Suuf",
+  "tab_health": "Sàmm",
+
+  "needs_heading": "Lan La Soxor",
+  "steps_heading": "Yëgëlub Lekk — Lan La Def",
+  "remember_heading": "Xamal Looloo",
+
+  "ch1_num": "Siiñ 1",
+  "ch1_title": "Lëngël (Lakkatu Ndox)",
+  "ch1_intro": "Lëngël mooy benn yaram xorom bu meti ci ndox yëkënte. Dafa ëlëk ndawal ci 2–3 fan. Dem ci seau ak génn ci yënn ak jur ci xar ak jën — dafa am proteinu bu bari.",
+  "ch1_needs": [
+    "Yenn bu mag (50 litri ak saa ko yore)",
+    "Ndox bu set — jegg ci dex, robine, walla puits",
+    "Lëngël — céébël ko ci dex bu soxor",
+    "Ndox u bët (1 ci 10 ndox bu set)",
+    "Benn dëkk bu dee — amul tëj bu gëna reuy"
+  ],
+  "ch1_s1": "Dox yenn bi ak ndox bu set — sëdd kaw jurom fan.",
+  "ch1_s2": "Yekk lëngël jegg ci dex ci ndigël yenn bi. Sëdd lool ko.",
+  "ch1_s3": "Yokk kurab: 1 ndox bët ci 10 ndox bu set. Wurus wurus. Bokk bu bari moo dañu — dafa manëë dañ.",
+  "ch1_s4": "Dox yenn bi ci penc bu dee — lëngël soxor la ci seeb kënëne tëj bu gëna reuy.",
+  "ch1_s5": "Xaar 5–7 fan. Lëngël dina ëlëk ci dëkk bi. Dafa mu ci yenn bi yëgël.",
+  "ch1_s6": "Céébël cig lëngël bi ak loxom. Dem ak cig bi ci yenn bu yees ak ndox bu set. Mën na ni nit ñépp am ñaari yenn.",
+  "ch1_s7": "Bolë lëngël bi fu këpp ci yënn, xar, walla jën. Dañu ko lekk rekk.",
+  "ch1_s8": "Dëgël lëkk bi ci 3–4 fan. Liggéey bi dafay dëgël ci dëkk bi.",
+  "ch1_remember": [
+    "1 ndox bët ci 10 ndox rekk — du sax.",
+    "Lekk ci fan 3–4 ak bokkeel bi.",
+    "Dem ci benn penc bu dee — tëj bu gëna reuy du sax."
+  ],
+
+  "ch2_num": "Siiñ 2",
+  "ch2_title": "Nebeday (Moringa)",
+  "ch2_intro": "Nebeday dafay lekk ci Fuuta Tooro. Gannaaw bi am proteinu gëna mbëgël ci nen, kalsiyom gëna ak mbëj, Vitamiini A gëna gëna ci karote. Koon bu dëkk fu metti ci fan yëgëleel ci doom, jiggéen yu ndaw, ak maam.",
+  "ch2_needs": [
+    "Garab nebeday benn — walla dëkk",
+    "Ndox bu set ngir tàngal",
+    "Fener bu set walla naari ngir seeral",
+    "Dëkk bu dee — AMUL tëj reey",
+    "Karab ak digg ngir pikë gannaaw"
+  ],
+  "ch2_sec1": "Xëlitu 1 — Céébël Gannaaw",
+  "ch2_s1": "Tann gannaaw bu nees jegg ci batté. Ñoñu la gëna am yaram.",
+  "ch2_s2": "Ceebël gannaaw bi yombaléelu ak loxom. Bokku garab bi. Sëdd jëkënte def gannaaw yees.",
+  "ch2_s3": "Tàng gannaaw bi ci ndox bu set ngir rëmb.",
+  "ch2_sec2": "Xëlitu 2 — Seeral (Liggéey bu am solo)",
+  "ch2_warning": "BOLLU SEERAL gannaaw nebeday ci tëj bu reey. Jant bi dañu Vitamini yi. Seeral ci dëkk bu dee.",
+  "ch2_s4": "Yobbël gannaaw bi yombaléelu ci fener bu set ci dëkk bu dee, tëj reey du sax.",
+  "ch2_s5": "Wurus wurus gannaaw bi ci fan yëgëleel. Ci 2–3 fan dañu mën dëj ci loxom. Seeral nañu.",
+  "ch2_s6": "Pikël gannaaw bi ci karab ngir am likk bu metti. Tasi jëkënte.",
+  "ch2_sec3": "Xëlitu 3 — Liggéeyu Likk",
+  "ch2_s7": "Yokk koon bu dëkk fu metti ci caabi bi walla saf u doom bi ci fan yëgëleel.",
+  "ch2_s8": "Yokk likk bi GANNAAW caabi bi juddeel ci tàng. Tàng bi dañu yaram. Wurus ci gannaaw liggéeyu caabi.",
+  "ch2_remember": [
+    "Seeral ci dee rekk — BOKKU tëj reey.",
+    "Yokk likk gannaaw liggéey, du ci mbirum tàng.",
+    "Koon bu dëkk fu metti ci fan ngir doom, jiggéen yu ndaw, ak maam."
+  ],
+
+  "ch3_num": "Siiñ 3",
+  "ch3_title": "Ndox bu Set ak ORS",
+  "ch3_intro": "Ndox bu setël du ànd jepp sañ-sañ. Ndox bu jàpp du set mooy njuumte borom ñu tudd ndaw ci mbindum. Deftere bii yëgël ñaari yëgël ngir setal ndox — ak yëgël def ORS, ndox bu waajal jur.",
+  "ch3_sec1": "Yëgël 1 — Tàng Ndox (Gëna Yomb)",
+  "ch3_b1": "Dox ndox ci mbindum bu set.",
+  "ch3_b2": "Tàng ndox bu màtt màtt ci. Xaar 1 simili ndax dafay tàng.",
+  "ch3_b3": "Sepp ak sëdd. Tox ci mbindum bu set ak sepp. Bokku touch ndox bi ak loxo bu mucc.",
+  "ch3_sec2": "Yëgël 2 — SODIS (Jant bi Liggéey)",
+  "ch3_sodis1": "Am bouteille bu set PET (ngir ndox walla boisson). Dox ndox ñuul ñuul fàttëlu.",
+  "ch3_sodis2": "Dox bouteille bi ci dëkk bu jant reey ci 6–8 waxt.",
+  "ch3_sodis3": "Bu jant bi dëkku feer, sëdd 2 fan (48 waxt). UV bi dañ bakteri ak parasite.",
+  "ch3_sec3": "Yëgël 3 — Fenal ci Fener (Ndox bu Tilim)",
+  "ch3_cloth1": "Topp fener bu set ñaateel — jëkënte ndajeel ñaari yoon.",
+  "ch3_cloth2": "Dox ndox ci fener bi ngir dem ci mbindum bu set. Liggéey bi rëmbël benn ginnaaw.",
+  "ch3_cloth_warning": "Fenal fener rekk DU setal ndox ak jëgël lekk. Tàng walla SODIS la gëna soxor.",
+  "ch3_sec4": "ORS — Ndox bu Waajal Jur ci Reñ",
+  "ch3_ors_intro": "Reñ bi dañu ndox ak sali ci yaram bu gaaw gaaw. Dafay may doom yi. ORS rëmb ci yaram. Def ko bu ngi yëgël.",
+  "ors_title": "ORS — 1 Litri",
+  "ors_water": "Ndox bu tàngee bu set",
+  "ors_sugar": "Koon yu juroomi fukk sukar",
+  "ors_salt": "Cig koon sel",
+  "ors_mix": "Wurus ci. Hokk yombal yombal. Def bees ci fan yëgëleel.",
+  "ch3_clinic_warning": "Dem ci poste médical rekk so: bënteen bi am gite mu seex ci biir, nelaw ak guddaat, mënul naan, am jëm ci gor, walla reñ bi dëkk 2 fan bu seli ñu.",
+  "ch3_remember": [
+    "Tàng ndox mooy yëgël bu gëna set.",
+    "ORS: 1 litri ndox + koon yi juroomi fukk sukar + cig koon sel.",
+    "Gite ci biir, deewul, wuutërit ñu — dem ci poste rekk!"
+  ],
+
+  "ch4_num": "Siiñ 4",
+  "ch4_title": "Suuf, Compost ak Seentu Naari Mbir",
+  "ch4_intro": "Suuf bu taax du defar récolte bu bari. Mën la ko lajal bu soxor ak jënd dara. Compost ñamil suuf ak lu nga tëj. Zai jëm ndox taw. Seentu naari mbir yëgëleel suuf bi jaaraama.",
+  "ch4_signs_heading": "Yëgëlub Suuf bu Taax",
+  "ch4_signs": [
+    "Suuf bi dëj ak tarax ci gannaaw taw",
+    "Njaboot yi jëkënte koo du lekk dëgël",
+    "Recolte bi bari moo ëlëk ci fan bu dëkk",
+    "Suuf bi am romb bu ñuul, du ñuul"
+  ],
+  "ch4_sec1": "Xëlitu 1 — Def Compost",
+  "ch4_needs": [
+    "Ñuulëm: gannaaw bu ëp, caabi yu tudd, nakkal",
+    "Ñofëm: tuutu ci recolte, tee yu taax, sëy",
+    "Bët u yënn (xar, ginaar)",
+    "Ndox tuuti",
+    "Yol compost walla ndëkël — 1m × 1m"
+  ],
+  "ch4_s1": "Tep yol compost ci kanam ngesa bi — fekk 1 mètre × 1 mètre. Walla def mbolo ci mbedd suuf.",
+  "ch4_s2": "Yokk peeñ ci peeñ: ñofëm bu njëkk, gann ñuulëm, gann bët yënn. Dëgël.",
+  "ch4_s3": "Sëy ndox tuuti ngir suuf bi dëkk koo du mbiir.",
+  "ch4_s4": "Wurus ak cëp bi ci ñaari ayu bi. Wurusal bi yëgëleel ko jëfandiku.",
+  "ch4_s5": "Ci 3–4 weer, compost bi ñuul, bari, ak dëj bu noos suuf. Cëp ko ci ngesa bi bu njëkk.",
+  "ch4_sec2": "Xëlitu 2 — Zai (Jëm Ndox Taw)",
+  "ch4_zai1": "Bu njëkk lepp, def tënteel yu njuumte ci suuf bi — 30 cm ay kaw.",
+  "ch4_zai2": "Yokk benn suuf compost walla bët yënn ci kaw tënteel.",
+  "ch4_zai3": "Lepp njaboot bi ci tënteel bi. Bu taw nii bi, ndox bi jëm ci tënteel — du doxal. Liggéey bi ñamil njaboot bi.",
+  "ch4_sec3": "Xëlitu 3 — Seentu Naari Mbir",
+  "ch4_rot1": "Bollu lepp soow walla maïs ci ngesa googël fan yëgëleel. Suuf bi dafay taax.",
+  "ch4_rot2": "Ci gannaaw soow, lepp niébé ci ngesa googël. Niébé dafay yokk azote ci suuf bi.",
+  "ch4_rot3": "Ci gannaaw récolte, cëp tuutu niébé ci suuf — bokku def. Dañu lajal ak setal suuf bi.",
+  "ch4_remember": [
+    "Compost dafay jël ci lu nga tëj — du jënd dara.",
+    "Zai dëgg ndox taw ngir du doxal dëkk mbindum.",
+    "Seentu: soow → niébé → soow. Suuf bi dina lajal."
+  ],
+
+  "ch5_num": "Siiñ 5",
+  "ch5_title": "Xam-xam ci Sàmm bu am solo",
+  "ch5_intro": "Ñaari yëgël bu am solo ci sàmm — koo du jënd dara, xam xam rekk. Tàng loxo, sunu, tëriñ yu am yaw ci jiggéen yu ndaw, dëgg bëñëp, ak guure u doom.",
+  "hc1_title": "5 Yëgëlub Tàng Loxo bu am solo",
+  "hc1_intro": "Reñ yi ak bàyyëkaay yi dañuy dem ak loxo bu mucc. Ñaari yëgël yi la gëna am solo.",
+  "hc1_list": [
+    "Ci gannaaw jotaay ci WC",
+    "Ci gannaaw surbaani doom bu jotaay",
+    "Bu njëkk liggéey bañkuk",
+    "Bu njëkk lekk",
+    "Bu njëkk ñamil walla ñëwël doom"
+  ],
+  "hc1_note": "Tàng ak saafara ak ndox ci 20 segundo. Amul saafara — def sëy. Sëy dafay liggéey.",
+  "hc2_title": "Sunu — Lajal ak Yëgëlub Xam-xam",
+  "hc2_prevent_label": "Lajal:",
+  "hc2_prevent": [
+    "Ñëwël ci biir mous bu baaxëe ci guddi yëgëleel — teeŋtu doom yi ak jiggéen yu ndaw",
+    "Taas ndox yëkënte yi ci kanam kër bi — seau, mbindum, ndox taxawël — ci ayu bi",
+    "Bolëb ak dox ndox bu yëkënte yu am ci 100 mètre ci kër bi",
+    "Dal dampa gu gaaw ci gannaaw jant — sunu dafay soxor toon"
+  ],
+  "hc2_signs_label": "Yëgëlub yaw — dem ci poste rekk:",
+  "hc2_signs": [
+    "Tëriñ ak xëxx walla daldolu (teeŋtu doom yi)",
+    "Doom yi dëkku seetlu walla mënul lëkk ñuul",
+    "Tëriñ bi dëkk 24 waxt bu seli ñu",
+    "Jirim ak mënul tox dara"
+  ],
+  "hc3_title": "Jiggéen yu Ndaw — Yëgëlub Yaw",
+  "hc3_intro": "Dem ci poste médical rekk — bollu xaar — so jiggéen bu ndaw yëgëleel ci yii:",
+  "hc3_list": [
+    "Jëm bu bari ci biir ci këlëxëlëxël yi",
+    "Bopp bu metti bu gëna jëp walla gëm — yëgëlub jom bu am yaw",
+    "Gite ak loxo yi dëkk — yëgëlub preeklampsi",
+    "Doom bi dëkku yiiliku ci 12 waxt",
+    "Ndox këlëxëlëxël bi dem bu njëkk koy àtte",
+    "Tëriñ bu gëna ci këlëxëlëxël",
+    "Këlëxëlëxël dëkk 12 waxt bu doom bi ñëwul"
+  ],
+  "hc3_anc": "Dem ci poste médical fol ñaarëleel ñaari yoon ci këlëxëlëxël — koo ne la jaamu.",
+  "hc4_title": "Xam-xam ci Dëgg Bëñëp",
+  "hc4_list": [
+    "Setal kaw bëñëp rekk ak ndox bu set buy dox ci 5 simili",
+    "Rëmb benn yu am yomb — bokku jël bu gëna yomb",
+    "Keeñ ak fener bu set walla bandaaji",
+    "Sàkku ci fan yëgëleel",
+    "BOKKU yokk suuf, gannaaw, bët walla dëkëj ci bëñëp — dañu mel teetaanus ak baasgol"
+  ],
+  "hc4_go_label": "Dem ci poste so:",
+  "hc4_go": [
+    "Bëñëp bi am wugoo bu jàmm wowëluku — mooy baasgol jom",
+    "Bëñëp bi jegg ci biirukanam walla yëngël bu gëna yomb",
+    "Tëriñ ji ñëweel ci gannaaw bëñëp",
+    "Bëñëp bi am kaw walla bonde ci 2 fan"
+  ],
+  "hc5_title": "Guuru Doom — Haɓitugol MUAC",
+  "hc5_intro": "MUAC (Yëngu Loxo ci Biir) mooy yëgël bu yomb gëna ngir xam so doom bi — lewru 6 haa at 5 — am yaramu bàyyëkaay. Calcu loxo bi ak ñan walla fune.",
+  "hc5_colors": [
+    "<strong style='color:var(--green)'>ÑUUL (joow ci cm 12.5)</strong> — Doom bi sumb bu baax. Dëgëlël ñamlu bu baax.",
+    "<strong style='color:#CC8800'>ROMB (cm 11.5–12.5)</strong> — Doom bi am baadu bàyyëkaay. Yokk ñamri. Yokk likk nebeday ci fan yëgëleel.",
+    "<strong style='color:#CC3300'>JOM (suuf ci cm 11.5)</strong> — Doom bi am bàyyëkaay bu gëna yaw. Dem ci poste rekk."
+  ],
+  "hc5_note": "Haɓit MUAC doom bi ci fan bu dëkk. Doom bu du mu gëna bari — dafay soxor wallu ci lu njëkk."
+}
